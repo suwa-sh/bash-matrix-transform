@@ -1,0 +1,6 @@
+key1,value1
+key2,"value 2"
+key3,"value ""3"""
+key4,100
+key5,0.123
+key6,"A, B, C"

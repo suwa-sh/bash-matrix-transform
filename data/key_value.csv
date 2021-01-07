@@ -4,3 +4,9 @@ key3,"value ""3"""
 key4,100
 key5,0.123
 key6,"A, B, C"
+key7,value1
+key8,"value 2"
+key9,"value ""3"""
+key10,100
+key11,0.123
+key12,"A, B, C"

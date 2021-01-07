@@ -6,7 +6,7 @@
 cat data/key_value.csv | # key-value形式のcsvから
 lib/parsrc.sh          | # line field indexed value に変換
 lib/self 2 1 3/NF      | # 行番号と列番号のカラムを入れ替え
-sort                   | # makrc用に行番号,列番号でsort
+sort -n -k1,1 -k2,2    | # makrc用に行番号,列番号でsort
 lib/makrc.sh             # csvに変換
 ```
 
